@@ -49,8 +49,10 @@ googleAnalytics = "UA-17319162-2"
 	# About section
 	[params.about]
 		headline    = "About OpenFisheries"
-		description = "The OpenFisheries.org project seeks to advance the practice of data science in fisheries. The project does this by consolidating global fisheries dataset through an open web platform and viewing this data through a lens of modern analytics. The project lead is [Andrew Dyck](https://twitter.com/andrewjdyck)."
+		description = "The OpenFisheries.org project seeks to advance the practice of data science in fisheries. The project does this by consolidating global fisheries dataset through an open web platform and viewing this data through a lens of modern analytics. The project lead is [Andrew Dyck](https://twitter.com/andrewjdyck). \n \n The OpenFisheries.org flagship project is the [Global Fisheries REST API](https://github.com/OpenFisheries/api.openfisheries.org). Information about using the API is available on Github. Collaboration with the [rOpenSci](https://ropensci.org/) team has produced a [package for the R programming language](https://github.com/ropensci/rfisheries) that makes the API accessible for educators and data scientists alike."
+		
 		buttonText  = "Get started!"
+		buttonUrl   = "#services"
 
 
 	# Service section
@@ -61,22 +63,22 @@ googleAnalytics = "UA-17319162-2"
     [[params.services.list]]
             icon = "fa-compass"
             title = "Fisheries economics & analysis"
-            description = "Economic impact analysis of global fishing trends."
+            description = "Economic impact analysis of global fishing trends. Consultancy has been engaged by NGOs, academia, and journalists."
             
         [[params.services.list]]
             icon = "fa-cloud"
             title = "Global landings API"
-            description = "This flagship product forms the backbone of fisheries data science, enabling analytics in R, Python or any other language."
+            description = "This [flagship product](https://github.com/OpenFisheries/api.openfisheries.org) forms the backbone of fisheries data science, enabling analytics in R, Python or any other language."
 
         [[params.services.list]]
 			icon = "fa-flask"
 			title = "OpenFisheries Lab"
-			description = "Collaboration with ROpenSci.org to bring open fisheries data into reproducible science using the R scientific programming language."
+			description = "Collaboration with [ROpenSci.org](https://ropensci.org/) to bring open fisheries data into reproducible science using the [R scientific programming language](https://github.com/ropensci/rfisheries)."
 
 		[[params.services.list]]
             icon = "fa-github-alt"
             title = "Open source"
-            description = "Fork and contribute to open source projects."
+            description = "Fork and [contribute](https://github.com/OpenFisheries) to open source projects."
 
 
     # Portfolio modals
