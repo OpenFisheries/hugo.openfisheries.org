@@ -51,8 +51,8 @@ googleAnalytics = "UA-17319162-2"
 		headline    = "About OpenFisheries"
 		description = "The OpenFisheries.org project seeks to advance the practice of data science in fisheries. The project does this by consolidating global fisheries dataset through an open web platform and viewing this data through a lens of modern analytics. The project lead is [Andrew Dyck](https://twitter.com/andrewjdyck). \n \n The OpenFisheries.org flagship project is the [Global Fisheries REST API](https://github.com/OpenFisheries/api.openfisheries.org). Information about using the API is available on Github. Collaboration with the [rOpenSci](https://ropensci.org/) team has produced a [package for the R programming language](https://github.com/ropensci/rfisheries) that makes the API accessible for educators and data scientists alike."
 		
-		buttonText  = "Get started!"
-		buttonUrl   = "#services"
+		# buttonText  = "Get started!"
+		# buttonUrl   = "#services"
 
 
 	# Service section
@@ -89,17 +89,17 @@ googleAnalytics = "UA-17319162-2"
         buttonText = "Close"
 
     # Aside section
-	# [params.aside]
-	# 	headline = "Get the Creative Theme for Hugo"
+	 [params.aside]
+	 	headline = "Support open science & the Open Fisheries project"
 
-	#	[params.aside.button]
-	#		text = "Download now"
-	#		link = "//github.com/digitalcraftsman/hugo-creative-theme"
+		[params.aside.button]
+			text = "Become a patron"
+			link = "https://www.patreon.com/bePatron?u=367562"
 
 	# Contact section
 	[params.contact]
 		headline = "Contact"
-		# description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
+		description = "Have a question or want to get in touch?"
 		# phone = "123-456-6789"
 		email = "openfisheries@gmail.com"
 
