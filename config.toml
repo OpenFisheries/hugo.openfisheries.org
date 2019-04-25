@@ -94,7 +94,7 @@ googleAnalytics = "UA-17319162-2"
 
 		[params.aside.button]
 			text = "Become a patron"
-			link = "https://www.patreon.com/bePatron?u=367562"
+			link = "https://www.patreon.com/user?u=367562"
 
 	# Contact section
 	[params.contact]
